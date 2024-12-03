@@ -6,6 +6,7 @@ export interface ProductData {
     description: string
     paymentMethod: string
     category: string
+    owner: string
 };
 
 export interface ProductId {
@@ -18,4 +19,5 @@ export interface Product{
     description: string
     paymentMethod: string
     category: string
+    owner: string
 };

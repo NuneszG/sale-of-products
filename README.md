@@ -1,7 +1,7 @@
 # API sales of products
 Simple API of sale of products that i made to practice, a system to create new user that can make new sales of differents products.
 
-<img src="/src/media/Captura de ecrã 2024-12-03 140558.png">
+<img src="/src/media/Captura de ecrã 2024-12-03 183709.png">
 
 ### Features
 - Clean Architecture in Typescript
@@ -14,4 +14,3 @@ Simple API of sale of products that i made to practice, a system to create new u
 - Prisma
 - Fastify
 - MongoDB 
-- Zod

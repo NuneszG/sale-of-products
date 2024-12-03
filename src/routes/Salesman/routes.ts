@@ -1,6 +1,8 @@
 import { FastifyRequest, FastifyReply, FastifyPluginOptions, FastifyInstance } from "fastify";
 
 import { CreateSalesmanController } from "../../controllers/Salesman/CreateSalesmanController";
+import { GetSalesmanSalesController } from "../../controllers/Salesman/GetSalesmanSalesController";
+import { ShowAllSalesmanController } from "../../controllers/Salesman/ShowAllSalesmanController";
 
 export default async function Routes(fastify: FastifyInstance, plugin: FastifyPluginOptions) {
 
@@ -8,4 +10,11 @@ export default async function Routes(fastify: FastifyInstance, plugin: FastifyPl
         return new CreateSalesmanController().Handle(request, reply);
     });
 
+    fastify.get("/auth/salesman/sales/", async (request: FastifyRequest, reply: FastifyReply) => {
+        return new GetSalesmanSalesController().Handle(request, reply)
+    });
+
+    fastify.get("/auth/salesman/get-all-salesman/", async (request: FastifyRequest, reply: FastifyReply) => {
+        return new ShowAllSalesmanController().Handle(request, reply)
+    });
 };
