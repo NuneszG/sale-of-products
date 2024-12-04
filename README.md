@@ -17,9 +17,6 @@ Simple API of sale of products that i made to practice, a system to create new u
 - Fastify
 - MongoDB 
 
-### Project architecture
-
-<img src="/src/media/Captura de ecrã 2024-12-04 180157.png">
 
 ### Copy repository
 ```
