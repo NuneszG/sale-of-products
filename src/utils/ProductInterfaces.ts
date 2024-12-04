@@ -20,4 +20,5 @@ export interface Product{
     paymentMethod: string
     category: string
     owner: string
+    id: string 
 };

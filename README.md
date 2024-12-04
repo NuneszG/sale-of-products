@@ -5,8 +5,9 @@ Simple API of sale of products that i made to practice, a system to create new u
 
 ### Features
 - Clean Architecture in Typescript
-- Create new users and sales
+- Create new salesman and new sales
 - Get specific sale by category or id
+- Get all sales by specific salesman
 - Update and delete some sale
 
 ### Technologies used 
