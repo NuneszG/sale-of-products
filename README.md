@@ -15,3 +15,18 @@ Simple API of sale of products that i made to practice, a system to create new u
 - Prisma
 - Fastify
 - MongoDB 
+
+### Copy repository
+```
+https://github.com/NuneszG/sale-of-products.git
+```
+
+### Run api
+```
+npm run dev
+```
+
+### Api running on port 
+```
+http://localhost:8000
+```

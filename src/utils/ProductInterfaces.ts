@@ -13,6 +13,10 @@ export interface ProductId {
     id: string
 };
 
+export interface ProductCategory{
+    category: string 
+};
+
 export interface Product{
     name: string
     price: string
