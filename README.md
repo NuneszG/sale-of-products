@@ -6,6 +6,7 @@ Simple API of sale of products that i made to practice, a system to create new u
 ### Features
 - Clean Architecture in Typescript
 - Create new salesman and new sales
+- Get all sales made
 - Get specific sale by category or id
 - Get all sales by specific salesman
 - Update and delete some sale
@@ -15,6 +16,10 @@ Simple API of sale of products that i made to practice, a system to create new u
 - Prisma
 - Fastify
 - MongoDB 
+
+### Project architecture
+
+<img src="/src/media/Captura de ecrã 2024-12-04 180157.png">
 
 ### Copy repository
 ```

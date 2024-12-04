@@ -35,7 +35,7 @@ model Product {
   description    String
   paymentMethod  String
   category       String
-  owner          Salesman @relation(fields: [salesman_id], references: [id])
+  owner          Salesman @relation(fields: [salesman_id], references: [id], onDelete: Cascade)
   salesman_id    String   @db.ObjectId
 
   createdAt   DateTime    @default(now())
