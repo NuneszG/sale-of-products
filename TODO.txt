@@ -1,0 +1,22 @@
+
+created model salesman and product(sale) - [x]
+    paths crud
+
+    salesman and products {
+            - create
+            - update
+            - delete
+            - read
+    } 
+
+    create new sale and salesman - [x]
+    update specific salesman - [x]
+    delete specific sale or salesman - [x] (when salesman data is deleted, his sales are too)
+    get all sales in database - [x]
+    get all sales from specific salesman - [x]
+    update sale by id - [x]
+    get specific sale by id or category - [x]
+    get all salesman in database - [x]
+
+    add Dockerfile - [ ]
+        

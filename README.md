@@ -1,5 +1,6 @@
 # API sales of products
 Simple API of sale of products that i made to practice, a system to create new user that can make new sales of differents products.
+This api enables you, to get all sales that some specific salesman has, or get specific sale by id or category of sale. Await more updates about api's frontend.
 
 <img src="/src/media/Captura de ecrã 2024-12-03 183709.png">
 
@@ -17,6 +18,9 @@ Simple API of sale of products that i made to practice, a system to create new u
 - Fastify
 - MongoDB 
 
+### Technologies to test api 
+- Insomnia 
+- Postman
 
 ### Copy repository
 ```
